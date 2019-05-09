@@ -1,0 +1,82 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+img	{
+	max-width: 100%;
+	display: block;
+}
+body{}
+header{
+    background: #333;
+    padding: 10px 0;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+nav{
+    text-align: center;
+}
+nav ul{}
+nav > ul > li{
+    display: inline-block;
+    vertical-align: middle;
+}
+nav ul li a {
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    font-size: 16px;
+    transition: background 0.4s ease;
+}
+
+nav ul li a:hover{
+	color: #78a7d4;
+	background:lightgreen;
+
+}
+nav ul li a img{
+    width: 202px; 
+}
+
+.form-section{
+    padding: 50px 0;
+}
+form{
+    width: 300px;
+    margin: 0 auto;
+    background: aqua;
+    padding: 30px;
+}
+input{
+    width: 100%;
+    border: 1px solid;
+    padding: 10px 10px;
+    font-size: 16px;
+    margin-bottom: 6px;
+}
+select{
+    width: 100%;
+    border: 1px solid;
+    padding: 10px 10px;
+    font-size: 16px;
+    margin-bottom: 6px;
+}
+span{
+    color: #efeeec;
+}
+textarea{
+    width: 100%;
+    border: 1px solid;
+    padding: 10px 10px;
+    font-size: 16px;
+    margin-bottom: 6px;
+}
+label{
+    color: white;
+}
